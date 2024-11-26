@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">My Application test</string>
+    <string name="app_name">Защита древних</string>
     <string name="background">Background description</string>
+    
+    <string name="next">Далее</string>
+    
+    <string name="replic_btn_1">Выбор 1</string>
+    <string name="replic_btn_2">Выбор 2</string>
+    <string name="replic_btn_3">Выбор 3</string>
+    <string name="replic_btn_4">Выбор 4</string>
+    <string name="replic_btn_5">Выбор 5</string>
+    <string name="replic_btn_6">Выбор 6</string>
+    <string name="replic_btn_7">Выбор 7</string>
+    <string name="replic_btn_8">Выбор 8</string>
+    <string name="replic_btn_9">Выбор 9</string>
+    <string name="replic_btn_10">Выбор 10</string>
+    <string name="replic_btn_11">Выбор 11</string>
+    <string name="replic_btn_12">Выбор 12</string>
 </resources>
