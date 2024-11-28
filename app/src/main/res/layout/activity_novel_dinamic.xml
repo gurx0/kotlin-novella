@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Фоновое изображение -->
+
+    <!-- Текстовый блок -->
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/i" />
+
+    <TextView
+        android:id="@+id/novelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#AA000000"
+        android:padding="70dp"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/choiceButton1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/corner_btn"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/replic_btn_1"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-358dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@id/choiceButton1"
+        android:background="@drawable/corner_btn"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/backButton"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/choiceButton2"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@id/choiceButton1"
+        android:background="@drawable/corner_btn"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/replic_btn_2"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/choiceButton2"
+        android:background="@drawable/corner_btn"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/nextButton"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-700dp"
+        android:layout_toEndOf="@+id/choiceButton2"
+        android:text="@string/settingsButton"
+        android:textSize="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:background="@drawable/corner_btn"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>

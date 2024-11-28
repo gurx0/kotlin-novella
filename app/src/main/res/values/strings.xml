@@ -2,7 +2,9 @@
     <string name="app_name">Защита древних</string>
     <string name="background">Background description</string>
     
-    <string name="next">Далее</string>
+    <string name="nextButton">Далее</string>
+    <string name="backButton">Назад</string>
+    <string name="settingsButton">Настройки</string>
     
     <string name="replic_btn_1">Выбор 1</string>
     <string name="replic_btn_2">Выбор 2</string>
